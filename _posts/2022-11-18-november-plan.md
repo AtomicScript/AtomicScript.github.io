@@ -1,7 +1,7 @@
 ---
 title: November Plan 2022
 date: 2022-11-18 12:00:00 -500
-categories: [goal, blog]
+categories: [blog, goals]
 tags: [goal]
 
 ---
