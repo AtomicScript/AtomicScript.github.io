@@ -7,6 +7,13 @@ order: 4
 # Hands-On Guide in becoming a hacker.
 > For educational purposes only.
 
+## Goals
+- [ ] Complete Metasploitable 3 series
+- [ ] Reach top 100 in THM in UAE
+
+![THM Goal](/images/Atom87.png)
+
+
 ## Series that will be covered in my blog post
 - [ ] Metasploitable 3
 - [ ] WebGoat
@@ -17,8 +24,4 @@ order: 4
 - [ ] ThE Packet Series
 
 
-## Online websites i use to practice more
-- THM
-- HTB
-- Root me [ Future ]
 
