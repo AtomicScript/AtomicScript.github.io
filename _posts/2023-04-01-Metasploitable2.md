@@ -8,7 +8,11 @@ tags: "Metasploitable Series"
 # Metasploitable Series
 ## Issue 1
 
+![Nmap Scan](/images/nmap-scan1.png)
+
 The first step that was done was scan the machine using nmap -sV -A
+
+![SVA Nmap Scan](/images/nmapSVA.png)
 The main focus in this FTP exploitation
 
 VICTIM IP = 192.168.199.130
@@ -17,6 +21,7 @@ VICTIM IP = 192.168.199.130
 
 ## Version : ProFTPD 1.3.5
 
+![searchsploit](/images/searchsploitFTP.png)
 since we get the version number I decided on using _searchsploit_ to locate any existing exploit
 
 ### Mode_copy remote command execution
@@ -47,6 +52,12 @@ we need to upload the reverse shell php and have a listener set up to capture th
 
 i had problems with 49908.py exploit so i used https://github.com/t0kx/exploit-CVE-2015-3306
 after reading the exploit I understood that we have to add to the link the cmd command like the below:
+
+![searchsploit](/images/ftpmcexploit.png)
+
+
+![searchsploit](/images/testPHP.png)
+
 http://192.168.199.130/backdoor.php?cmd=ls
 
 ### What we can find out
