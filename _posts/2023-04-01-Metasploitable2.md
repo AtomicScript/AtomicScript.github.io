@@ -53,10 +53,10 @@ we need to upload the reverse shell php and have a listener set up to capture th
 i had problems with 49908.py exploit so i used https://github.com/t0kx/exploit-CVE-2015-3306
 after reading the exploit I understood that we have to add to the link the cmd command like the below:
 
-![searchsploit](/images/ftpmcexploit.png)
+![ftpExplot](/images/ftpmcexploit.png)
 
 
-![searchsploit](/images/testPHP.png)
+![testPHP](/images/testPHP.png)
 
 http://192.168.199.130/backdoor.php?cmd=ls
 
