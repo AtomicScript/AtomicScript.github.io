@@ -22,6 +22,8 @@ VICTIM IP = 192.168.199.130
 
 since we get the version number I decided on using _searchsploit_ to locate any existing exploit
 
+![search exploit](/images/searchsploitFTP.png)
+
 ### Mode_copy remote command execution
 
 - sudo python 49908.py 192.168.199.130  
@@ -54,6 +56,10 @@ we need to upload the reverse shell php and have a listener set up to capture th
 
 i had problems with 49908.py exploit so i used https://github.com/t0kx/exploit-CVE-2015-3306
 after reading the exploit I understood that we have to add to the link the cmd command like the below:
+
+![exploit](/images/ftpmcexploit.png)
+
+![test PHP](/images/testphp.png)
 
 
 http://192.168.199.130/backdoor.php?cmd=ls
