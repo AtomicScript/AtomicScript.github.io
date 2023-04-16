@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Metasploitable Series"
+title:  "Metasploitable Series Issues Introduction"
 categories: ['Hands-on', 'Metasploitable']
 tags: "Metasploitable Series"
 ---
