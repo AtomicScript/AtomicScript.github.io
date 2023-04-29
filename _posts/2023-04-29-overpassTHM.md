@@ -68,7 +68,7 @@ sudo john id_rsa.hash -wordlist=/usr/share/wordlists/rockyou.txt
 
 
 ### SSH
-with that we found the password! I went back to the admin page and tried it with the username James but it say incorrect credential. I was hoping it would work. I used the below command to ssh with the id_rsa I found and passed the password as the phrase.
+with that I found the password! I went back to the admin page and tried it with the username James but it say incorrect credential. I was hoping it would work. I used the below command to ssh with the id_rsa I found and passed the password as the phrase.
 
 ```bash
 # SSH as james
@@ -78,7 +78,7 @@ ssh -i id_rsa james@[ip-address]
 ```
 
 ## Privilege escalation
-Now that we have logged in as a normal I need to escalate my privilege to fully complete the challenge. I found two files one containing the first key and the second contains a to do list, it mentions that a password is in the password manager. I dont have access to tryhackme home directory sadly.
+Now that I logged in as a normal I need to escalate my privilege to fully complete the challenge. I found two files one containing the first key and the second contains a to do list, it mentions that a password is in the password manager. I dont have access to tryhackme home directory sadly.
 
 ### [LinPeas](https://blog.cyberethical.me/linpeas)
 
@@ -122,7 +122,7 @@ I used a [guide](https://0xnirvana.medium.com/tryhackme-overpass-90abe32320a1) t
 
 #### CronTab
 
-The trick was in the cron tab. The Crontab curls the buildscript.sh from the overpass.thm and sends the result to the bash as the root. From my understanding if we get access to editing the buildscript and the crontab runs it as root we would technically have access to anything as root.
+The trick was in the cron tab. The Crontab curls the buildscript.sh from the overpass.thm and sends the result to the bash as the root. From my understanding if I got access to editing the buildscript and the crontab runs it as root I would technically have access to anything as root.
 
 I used the command cat /etc/hosts to find out about the overpass.thm. It was there with the local host now if i modified the ip address associated with the overpass.thm and changed it to be my own ip address, then the machine would think Im overpass.thm.
 
