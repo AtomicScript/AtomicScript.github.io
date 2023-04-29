@@ -64,7 +64,7 @@ python ssh2john.py id_rsa > id_rsa.hash
 sudo john id_rsa.hash -wordlist=/usr/share/wordlists/rockyou.txt
 
 ```
->[Using JOHN & SSH2JOHN to crack a id_rsa private key](https://m0053sec.wordpress.com/2020/02/08/using-john-ssh2john-to-crack-a-id_rsa-private-key/)
+[Using JOHN & SSH2JOHN to crack a id_rsa private key](https://m0053sec.wordpress.com/2020/02/08/using-john-ssh2john-to-crack-a-id_rsa-private-key/)
 
 
 ### SSH
