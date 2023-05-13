@@ -8,11 +8,15 @@ order: 4
 > For educational purposes only.
 
 ## Goals
-- [ ] Complete Metasploitable 3 series
-- [ ] Reach top 100 in THM in UAE
+To get better at hacking, and increase my knowledge. 
+Upgrading from a lame script kiddie to a hacker. 
 
-![THM Goal](/images/Atom87.png)
+## Stats:
+Tryhackme: #57042 (Top 3%)
+HackTheBox: #709
 
+## Gitbook:
+Insipired by HackTrick [Gitbook](https://atomic-5.gitbook.io/atoms-handbook/)
 
 ## Series that will be covered in my blog post
 - [ ] Metasploitable 3
