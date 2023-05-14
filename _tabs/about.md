@@ -16,5 +16,5 @@ Insipired by HackTrick [Gitbook](https://atomic-5.gitbook.io/atoms-handbook)
 The gitbook will focus more on manual, Guide, research, what I have learned, and techniques. 
 
 ## Stats:
-- Tryhackme: #57042 (Top 3%)
-- HackTheBox: #709
+Tryhackme: #57042 (Top 3%)
+HackTheBox: #709
