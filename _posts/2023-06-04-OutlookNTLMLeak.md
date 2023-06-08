@@ -6,11 +6,13 @@ categories: ["Hands-on", "TryHackMe"]
 tags: "TryHackMe","CVE-2023-23397"
 ---
 
-# [Outlook NTLM Leak](https://tryhackme.com/room/outlookntlmleak#)
+# Outlook NTLM Leak
 ## CVE-2023-23397
 
 **Scenario:**
 *The victim recieves a malicous email that redirects them to the attacker's SMB Server. This happens by busing CVE-2023-23397.*
+
+[Outlook NTLM Leak](https://tryhackme.com/room/outlookntlmleak#)
 
 The exploit happens by manipulating the parameter of the reminder sound path location. Simply changing the path wont do anything. the **PidLidReminderFileParameter** should point to **Universal Naming Convention (UNC)** path instead of a local file. **PidLidReminderOverride** should be configured to true to be able to override the default the confirgurations.
 
