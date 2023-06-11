@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Outlook NTLM Leak"
+title: "Outlook"
 date: 2023-06-04 
 categories: ["Hands-on", "TryHackMe"]
 tags: "TryHackMe","CVE-2023-23397"
