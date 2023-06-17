@@ -3,7 +3,7 @@ layout: post
 title: "Security+"
 date: 2023-06-11 
 categories: ["Certification", "Security+"]
-tags: 
+tags: "Certification"
 ---
 
 # Security+ Part 1
