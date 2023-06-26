@@ -3,7 +3,7 @@ layout: post
 title: "Topology"
 date: 2023-06-24 
 categories: ["Hands-on", "HackTheBox"]
-tags: ""
+tags: "Latex Injection"
 ---
 
 # Topology
