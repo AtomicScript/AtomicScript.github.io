@@ -21,7 +21,7 @@ The script begins by importing the socket module, which allows the creation of a
 import socket
 
 # the target and the ftp port 
-host_ip = '192.168.199.130'
+host_ip = 'x.x.x.x'
 port = 21
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -45,7 +45,7 @@ To scan all ports, a for loop can be used to attempt a connection with each port
 import socket
 
 # the target and the ftp port 
-host_ip = '192.168.199.130'
+host_ip = 'x.x.x.x'
 
 def raw_scanner(target, port):
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
