@@ -220,8 +220,8 @@ In my journey of developing the port scanner, I have some awesome future feature
 
 - Service Identification (Banner Grabbing)
 - Throttling
-- vVulnerability Detection
-- SScan Progress 
+- Vulnerability Detection
+- Scan Progress 
 - Addition of Well-Known and Most-Used Ports
 - Exploring Scapy
 
