@@ -36,7 +36,7 @@ What is the redirection URL to the phishing page for the individual Zoe Duncan? 
 ### Phishing Kit
 **Phishing Kit** is a set of tools such as HTML, pictures, and code that attackers use to contruct and launch phishing attacks. This helps in building phishing attacks faster, but how can we find the phishing kit? I started messing around with the url until I came accross the directory of the phihsing! it contains log.txt and office 365, but the Zip file mentioned in the fourth question was not there. I found the zip file by clicking back to go back to the parent directory and I downloaded it, I also made sure to copy the link of the zip file, defang it and submit it for the question four. I pressed again to go back to parent directory but i came accross the main website that is powered by wordpress. A hosted website being used to host malicous phishing website behind... 
 
-I extracted the zip file that conatins the phishing kit, i was not able to view it from the website. For the fifth question I used the command 'sha256sum' to get the SHA256 of the Phishing Kit zip file. The Sixth question was tricky because i was searching for the domain name of the url not the SHA256 of the phishing kit, after reading the [Guide](https://medium.com/@rdillon73/ctf-snapped-phish-ing-line-from-tryhackme-9b3ebfbc8cbf) I went and searched on virus total using the Hash instead. 
+I extracted the zip file that conatins the phishing kit, i was not able to view it from the website. For the fifth question I used the command 'sha256sum' to get the SHA256 of the Phishing Kit zip file. The Sixth question was tricky because i was searching for the domain name of the url not the SHA256 of the phishing kit, after reading the Guide I went and searched on virus total using the Hash instead. 
 
 for the tenth question i was able to find the gmail in both script.st and update.cmd in the phishing kit. For the nineth question, i had to examine every file until i found it in the submit and resubmit php file but it wasnt a gmail domain making me use fine with '.com' for each document. 
 
@@ -82,6 +82,9 @@ Eleventh Question:
 What is the hidden flag?
 
 ```
+
+## References:
+Guide: https://medium.com/@rdillon73/ctf-snapped-phish-ing-line-from-tryhackme-9b3ebfbc8cbf
 
 
 
