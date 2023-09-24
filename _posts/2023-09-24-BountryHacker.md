@@ -26,10 +26,8 @@ hydra -l lin -P locks.txt [ip address] ssh
 ```
 
 ## Execution
-### 
+### LinPeas
 After gaining remote access to the target machine as the user lin, I navigated to the tmp folder, hosted my download folder containing the 'linpeas.sh' file, and used the 'wget' command to download 'linpeas' onto the target machine. I then waited for the results to be analyzed after running 'linpeas' in the target's 'tmp' folder.
-
-My previous [LinPeas](/_posts/2023-04-29-overpass.md) post shows the steps and has the guide linked to it. 
 
 I found few interesting things from the output of LinPeas:
 1. Whoopsie but this turns out to be the daemon repsonsible for collecting error reports
