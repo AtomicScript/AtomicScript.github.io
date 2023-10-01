@@ -40,4 +40,5 @@ git log
 ```bash 
 git show 47241a47f62ada864ec74bd6dedc4d33f4374699
 ```
-![configJs](/images/Illumination/gitshow.png)
+
+![gitshow](/images/Illumination/gitshow.png)
