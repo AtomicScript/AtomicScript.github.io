@@ -2,7 +2,7 @@
 layout: post
 title: "NIST Cybersecurity Framework"
 date: 2023-07-23 
-categories: ["Framework"]
+categories: ["Framework", "Cyber Threat Intelligence"]
 tags: "Framework"
 ---
 
