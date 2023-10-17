@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cyber Kill Chain"
-date: 2023-10-07 
+date: 2023-10-14 
 categories: ["Framework", "Cyber Threat Intelligence"]
 tags: "Framework"
 ---
@@ -14,7 +14,7 @@ The cyber kill chain is a military concept that outlines the steps of several co
  Cyber Kill Chain is part of the intelligence drive defense model for the identification, and prevention of cyber intrusion activity. The model explains the steps that attackers mostly APTs have to go through to achieve their goals. The article also links the MITRE ATT&CK Tactics for each phase or each step in the cyber kill chain. 
 ## Steps 
 
-![Rackspace](/images/Frameworks/cyberkillchain.jpg)
+![cyberkillchain](/images/Frameworks/cyberkillchain.jpg)
 
 
 ### Phase 1: Reconnaissance
