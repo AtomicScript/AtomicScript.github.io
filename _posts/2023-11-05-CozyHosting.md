@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cozyhosting"
-date: 2023-10-08
+date: 2023-11-05
 categories: ["Hands-on", "TryHackMe"]
 tags: ""
 ---
