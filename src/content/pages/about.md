@@ -1,8 +1,9 @@
 ---
 title: "About"
-description: "A bit about me and this blog."
+description: "atomic script"
 ---
 
+AtomicScript
 AstroPaper is a minimal, accessible and SEO-friendly blog theme built with [Astro](https://astro.build/) and [Tailwind CSS](https://tailwindcss.com/).
 
 ![Astro Paper](@/assets/images/astropaper-og.jpg)
