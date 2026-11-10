@@ -5,7 +5,6 @@
 - Embedded system
 - Hardware hacking 
 
-!
 
 ## 📜 License
 
