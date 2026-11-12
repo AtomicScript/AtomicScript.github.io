@@ -1,13 +1,13 @@
 ---
 author: Atom
 pubDatetime: 2026-11-10
-title: Why IoT devices are easily hacked"
+title: Why IoT devices are easily hacked
 featured: true
 draft: false
 tags:
   - Research
   - IoT
-description: "Understanding what makes IoT a shiny target"
+description: Understanding what makes IoT a shiny target
 ---
 
 # Why IoT Devices Are Easily Hacked
